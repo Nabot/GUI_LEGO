@@ -16,15 +16,13 @@ Including another URLconf
 
 from django.conf.urls import url
 from django.contrib import admin
+from . import views
 
+# We are adding a URL called /home
+urlpatterns = [
+    url(r'^$', views.home, name='home'),
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-# Login/Logout URLs
-(r'^login/$',
-    'django.contrib.auth.views.login', {'template_name': 'login.html'}
-),
-(r'^logout/$',
-    'django.contrib.auth.views.logout', {'next_page': '/login/'}
-),
 ]
+
 
