@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'GUI.apps.GuiConfig',
     'bootstrap3',
+    'django.contrib.sites',
+    'store.app',
 ]
 
 MIDDLEWARE = [
@@ -121,5 +123,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-LOGIN_REDIRECT_URL = '/account/list/'
+
 
