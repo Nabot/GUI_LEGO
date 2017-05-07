@@ -1,2 +1,1 @@
-# GUI_LEGO
-Lego GUI
+Lego EV3 Graphic User Interface (GUI)
