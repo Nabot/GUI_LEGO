@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'GUI.apps.GuiConfig',
     'bootstrap3',
-    'django_admin_bootstrapped',
 ]
 
 MIDDLEWARE = [
