@@ -13,4 +13,5 @@ def auth_view(request):
         auth.login(request, user)
         return HttpResponseRedirect('/accounts/loggedin')
     else:
-        return HttpResponseRedirect('/accounts/invalid')
+        return HttpRespo
+        nseRedirect('/accounts/invalid')
